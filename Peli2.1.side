@@ -1,0 +1,118 @@
+{
+  "id": "39f3f791-4deb-4eb5-9554-aa05f64ee045",
+  "version": "2.0",
+  "name": "Peli2",
+  "url": "https://www.imdb.com/",
+  "tests": [{
+    "id": "491b53a3-5162-4729-aba9-bb7cef542c3b",
+    "name": "peli2",
+    "commands": [{
+      "id": "c1843a99-2599-4170-b2f7-e106f14c16d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.imdb.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b75e4589-2655-4714-b394-b21a673fc749",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x473",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93f64164-8790-4dad-a04b-0ee1b21270c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navTitleMenu > .downArrow",
+      "targets": [
+        ["css=#navTitleMenu > .downArrow", "css:finder"],
+        ["xpath=//li[@id='navTitleMenu']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "109b38dd-487a-4cc2-8764-8f3bf49f8611",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Most Popular TV Shows",
+      "targets": [
+        ["linkText=Most Popular TV Shows", "linkText"],
+        ["css=#navMenu1 > .subNavListContainer:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Most Popular TV Shows')]", "xpath:link"],
+        ["xpath=//div[@id='navMenu1']/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/chart/tvmeter?ref_=nv_tvv_mptv')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Most Popular TV Shows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f0cf45-a8b9-4d87-b8ba-80c587e8f908",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) img",
+      "targets": [
+        ["css=tr:nth-child(4) img", "css:finder"],
+        ["xpath=//img[@alt='Good Omens']", "xpath:img"],
+        ["xpath=//div[@id='main']/div/span/div/div/div[3]/table/tbody/tr[4]/td/a/img", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "594fe981-950d-4b48-84fb-4c357edea1fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slate_button",
+      "targets": [
+        ["css=.slate_button", "css:finder"],
+        ["xpath=//div[@id='title-overview-widget']/div/div[4]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/video/imdb/vi4284463641?playlistId=tt1869454&ref_=tt_ov_vi')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3367ce5d-aefb-40e8-810d-8f76f0aacfca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jw-video",
+      "targets": [
+        ["css=.jw-video", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[2]/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "006a4f2c-4916-4cce-b988-cbdfa96e548a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jw-video",
+      "targets": [
+        ["css=.jw-video", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[2]/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a75923a-26a4-4704-90b8-e7760ae2a32e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.jw-video",
+      "targets": [
+        ["css=.jw-video", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[2]/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a58aa0b-980b-47e8-8993-39a95471b576",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["491b53a3-5162-4729-aba9-bb7cef542c3b"]
+  }],
+  "urls": ["https://www.imdb.com/"],
+  "plugins": []
+}

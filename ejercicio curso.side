@@ -1,0 +1,119 @@
+{
+  "id": "065e106f-73fb-4db0-ba24-0deaf014ffe8",
+  "version": "2.0",
+  "name": "ejercicio curso",
+  "url": "http://200.77.226.6",
+  "tests": [{
+    "id": "88c423e2-9c79-4e27-9f1e-dfa8479b3682",
+    "name": "login inbroken",
+    "commands": [{
+      "id": "aba64aa4-1996-42aa-8a50-ad985347488f",
+      "comment": "",
+      "command": "open",
+      "target": "/InbrokerV5Web/Home/index.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "177ce53f-0989-4b5d-82fb-07a9ddd3da5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x473",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a610ef5-c641-4ad2-856f-beacb9484f3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=DefaultHeader_tfUser",
+      "targets": [
+        ["id=DefaultHeader_tfUser", "id"],
+        ["name=DefaultHeader_tfUser", "name"],
+        ["css=#DefaultHeader_tfUser", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfUser']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen40']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e810b9c-8469-4028-b47a-f4ee9250c540",
+      "comment": "",
+      "command": "type",
+      "target": "id=DefaultHeader_tfUser",
+      "targets": [
+        ["id=DefaultHeader_tfUser", "id"],
+        ["name=DefaultHeader_tfUser", "name"],
+        ["css=#DefaultHeader_tfUser", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfUser']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen40']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "WEBTEST"
+    }, {
+      "id": "bf0fb1be-dee3-4e98-bf33-1042257fc4dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=DefaultHeader_tfPass",
+      "targets": [
+        ["id=DefaultHeader_tfPass", "id"],
+        ["name=DefaultHeader_tfPass", "name"],
+        ["css=#DefaultHeader_tfPass", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfPass']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen47']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "aB12345678"
+    }, {
+      "id": "c63c3659-ad41-4b9e-b32e-6e8613363790",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=DefaultHeader_tfPass",
+      "targets": [
+        ["id=DefaultHeader_tfPass", "id"],
+        ["name=DefaultHeader_tfPass", "name"],
+        ["css=#DefaultHeader_tfPass", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfPass']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen47']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "1d5d4df3-ea90-4777-9c54-b713df62ddd5",
+      "comment": "",
+      "command": "type",
+      "target": "id=TFUser",
+      "targets": [
+        ["id=TFUser", "id"],
+        ["name=TFUser", "name"],
+        ["css=#TFUser", "css:finder"],
+        ["xpath=//input[@id='TFUser']", "xpath:attributes"],
+        ["xpath=//div[@id='TFUser_Container']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "WEBTEST"
+    }, {
+      "id": "2fd73425-1759-4257-9d83-9dbd7c510f00",
+      "comment": "",
+      "command": "type",
+      "target": "id=TFPassword",
+      "targets": [
+        ["id=TFPassword", "id"],
+        ["name=TFPassword", "name"],
+        ["css=#TFPassword", "css:finder"],
+        ["xpath=//input[@id='TFPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='TFPassword_Container']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "aB12345678"
+    }]
+  }],
+  "suites": [{
+    "id": "9039aae6-4af7-490d-ab4b-eff68179d08c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["88c423e2-9c79-4e27-9f1e-dfa8479b3682"]
+  }],
+  "urls": ["http://200.77.226.6/"],
+  "plugins": []
+}

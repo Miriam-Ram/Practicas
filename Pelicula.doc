@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>testspec Capacitación - Pelicula</title>
+<link type="text/css" rel="stylesheet" href="http://devtools.certum.com/testlink/gui/themes/intellego/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="http://devtools.certum.com/testlink/gui/themes/intellego/images/tl-logo-transparent-25.png" /></div>
+<div class="doc_title"><p>Especificación de Pruebas</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Proyecto de Pruebas: Capacitación<br>Suite de Pruebas: Capacitación - Pelicula</p></div>
+<div class="summary"><p id="printedby">Imprimido por TestLink el 07/06/2019</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Tabla de Contenidos</h1><div class="toc"><b><p style="padding-left: 20px;"><a href="#toc_1">1.Pelicula</a></p></b>
+<p style="padding-left: 45px;"><a href="#toc_tc178411">CAP-74: Película_ejercicio</a></p></div><h1 class="doclevel" >Descripción</h1>
+<div class="txtlevel"><p>
+	Proyecto destinado a capacitaciones.</p></div>
+ <br/><a name='toc_'></a>
+<h1 class='doclevel'>1.Suite de Pruebas : Pelicula</h1>
+<div><p>
+	En este caso de prueba se ingresara a&nbsp;imdb y se elegira una pelicula del catalogo de peliculas y tv&nbsp;</p>
+</div><a name="toc_tc178411"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Caso de Prueba CAP-74: Película_ejercicio&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">mgaray</td></tr>
+<tr><td colspan="4"><span class="label">Resumen:</span><br /><p>
+	Se examinara la correcta navegaci&oacute;n hacia la categor&iacute;a de Movies, TV &amp; Showtimes para poder elegir una pel&iacute;cula.</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td colspan="4"><span class="label">Precondiciones:</span><br /><p>
+	Tener un navegador&nbsp;</p>
+<p>
+	Ingresar a la pag&iacute;na web</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>
+	Tener un navegador&nbsp;</p>
+</td><td><p>
+	Tener un navegador para poder ver una pel&iacute;cula&nbsp;</p>
+</td></tr><tr><td width="5">3</td><td><p>
+	Se ingresa al la p&aacute;gina de las IMDb</p>
+</td><td><p>
+	Se mostrara la p&aacute;gina principal del sitio la cual tiene una barra en la que se podr&aacute; buscar todo el contenido multimedia con el que cuenta la p&aacute;gina:</p>
+<p>
+	Posteriormente lo divide en:</p>
+<p>
+	*Movies, TV &amp; Showtimes.</p>
+<p>
+	*Celebs, Events &amp; Photos</p>
+<p>
+	*News &amp; Community</p>
+<p>
+	*Watchlist</p>
+<p>
+	* Sign in.</p>
+<p>
+	*Las redes socilaes del citio</p>
+<p>
+	*IMDb pro</p>
+<p>
+	*Help</p>
+<p>
+	As&iacute; mismo se cuenta con una secci&oacute;n en la parte derecha del sitio de:</p>
+<p>
+	*Opening This Week</p>
+<p>
+	La cual cuenta con marcadores de la semana.</p>
+<p>
+	Y del lado Izquierdo muestra tr&aacute;iler y res&uacute;menes de algunas entrevistas con actores.</p>
+<p>
+	En la parte inferior del sitio nos muestra:</p>
+<p>
+	Videos recientes.</p>
+<p>
+	IMDb en todos lados con los logos de algunas aplicaciones de tiendas en l&iacute;nea&nbsp;</p>
+<p>
+	Las redes sociales en la parte inferior central&nbsp;</p>
+<p>
+	Una secci&oacute;n de navegaci&oacute;n de la p&aacute;gina con lo m&aacute;s relevante en la parte inferir izquierda.&nbsp;</p>
+<p>
+	Amazon.</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="5">4</td><td><p>
+	Una vez posicionado en la parte superior se elegir&aacute; la categor&iacute;a de Movies, TV &amp; Showtimes y damos clic</p>
+<p>
+	&nbsp;</p>
+</td><td><p>
+	Se nos desplegara un peque&ntilde;o men&uacute; con subcategor&iacute;as.</p>
+<p>
+	MOVIES</p>
+<p>
+	&nbsp; In Theaters</p>
+<p>
+	&nbsp; Showtimes &amp; Tickets</p>
+<p>
+	&nbsp; Latest Trailers</p>
+<p>
+	&nbsp; Coming Soon</p>
+<p>
+	&nbsp; Release Calendar</p>
+<p>
+	&nbsp; Top Rated Movies</p>
+<p>
+	&nbsp; Top Rated Indian Movies</p>
+<p>
+	&nbsp; Most Popular Movies</p>
+<p>
+	&nbsp;</p>
+<p>
+	CHARTS &amp; TRENDS</p>
+<p>
+	&nbsp; Box Office</p>
+<p>
+	&nbsp; Oscar Winners</p>
+<p>
+	&nbsp; Most Popular by Genre</p>
+<p>
+	&nbsp; TV &amp; VIDEO</p>
+<p>
+	&nbsp; Top Rated TV Shows</p>
+<p>
+	&nbsp; Most Popular TV Shows</p>
+<p>
+	&nbsp; DVD &amp; Blu-Ray</p>
+<p>
+	&nbsp;</p>
+<p>
+	SPECIAL FEATURES</p>
+<p>
+	&nbsp; Amazon Originals</p>
+<p>
+	&nbsp; Streaming Now</p>
+<p>
+	&nbsp; Horror Guide</p>
+<p>
+	&nbsp; IMDb Picks</p>
+<p>
+	&nbsp; IMDb Original Series</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="5">5</td><td><p>
+	Elegimos la opci&oacute;n&nbsp;Most Popular Movies y damos clic</p>
+<p>
+	&nbsp;</p>
+</td><td><p>
+	Nos subrayara la opci&oacute;n elegida y nos&nbsp; rediccionara a la p&aacute;gina elegida en la cual nos aparecer&aacute; en la parte superior</p>
+<ul>
+	<li>
+		Logo.</li>
+	<li>
+		Movies, TV &amp; Showtimes.</li>
+	<li>
+		Celebs, Events &amp; Photos</li>
+	<li>
+		News &amp; Community</li>
+	<li>
+		Watchlist</li>
+	<li>
+		Sign in.</li>
+	<li>
+		Las redes sociales del sitio</li>
+	<li>
+		IMDb pro</li>
+	<li>
+		Help&nbsp;&nbsp;</li>
+</ul>
+<p>
+	Nos mostrara el t&iacute;tulo de la secci&oacute;n elegida con una lista del contenido multimedia seg&uacute;n el rango y el t&iacute;tulo, y la calificaci&oacute;n otorgada, una secci&oacute;n&nbsp;</p>
+<p>
+	Usted ha visto con el contenido aleatorio.</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="5">6</td><td><p>
+	Seleccionamos la pel&iacute;cula de &quot;Good Omens &quot;</p>
+</td><td><p>
+	Nos aparecer&aacute; en la parte superior</p>
+<ul>
+	<li>
+		Movies, TV &amp; Showtimes.</li>
+	<li>
+		Celebs, Events &amp; Photos</li>
+	<li>
+		News &amp; Community</li>
+	<li>
+		Watchlist</li>
+	<li>
+		Sign in.</li>
+	<li>
+		Las redes sociales del sitio</li>
+	<li>
+		IMDb pro</li>
+	<li>
+		Help</li>
+</ul>
+<p>
+	En la parte inferior del men&uacute; principal nos mostrara:</p>
+<ul>
+	<li>
+		FULL CAST AND CREW&nbsp;</li>
+	<li>
+		TRIVIA</li>
+	<li>
+		USER REVIEWS</li>
+	<li>
+		IMDbPro</li>
+	<li>
+		MORE</li>
+</ul>
+<p>
+	Con el t&iacute;tulo de la p&aacute;gina &quot;Good Omens&quot;</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="5">7</td><td><p>
+	Le daremos clic al boton de play</p>
+</td><td><p>
+	<span style="font-family: Arial, sans-serif;">Nos&nbsp;reproducir&aacute; el tr&aacute;iler de la pel&iacute;cula&nbsp;&nbsp;en la parte izquierda.<o:p></o:p></span></p>
+<p>
+	<span style="font-family: Arial, sans-serif;">En la parte derecha nos aparecer&aacute; los videos relacionados.<o:p></o:p></span></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</td></tr><tr><td width="5">8</td><td></td><td></td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Media</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > práctica:</td><td  colspan = "3" ></td></tr>
+<tr><td > ejercicio de practica:</td><td  colspan = "3" ></td></tr>
+<tr><td > prueba1:</td><td  colspan = "3" ></td></tr>
+<tr><td > Etiqueta2:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requisitos</span><td colspan="3">&nbsp;Ninguno<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</table>
+</div>
+
+</body>
+</html>
